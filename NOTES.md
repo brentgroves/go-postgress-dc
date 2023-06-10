@@ -1,14 +1,3 @@
-
-# Go & PostgreSQL (go-postgres)
-
-Use and develop Go + Postgres applications. Includes appropriate runtime args, Go, common tools, extensions, and dependencies.
-
-## Options
-
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| imageVariant | Go version (use -bullseye variants on local arm64/Apple Silicon): | string | 1-bullseye |
-
 This template references an image that was [pre-built](https://containers.dev/implementors/reference/#prebuilding) to automatically include needed devcontainer.json metadata.
 
 * **Image**: mcr.microsoft.com/devcontainers/go ([source](https://github.com/devcontainers/images/tree/main/src/go))
@@ -60,7 +49,3 @@ If you wish to change this, you may add additional `RUN` commands in the [Go Doc
 # This line can be modified to add any needed additional packages
 RUN go get -x <github-link-for-package>
 ```
-
----
-
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/devcontainers/templates/blob/main/src/go-postgres/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
